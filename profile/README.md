@@ -1,8 +1,10 @@
 # MAC Projects
 
+This flowchart outlines the vaious steps of HGCal Silicon Module Assembly at a Module Assembly Center (MAC). The code associated with the various steps are linked below.
 
 ```mermaid
 graph TD
+    K[CERN INT2R DB] <--> A
     A{<br>Local<br>MAC Database<br>Setup} <--> B[OGP Inspection GUI]
     A{<br>Local<br>MAC Database<br>Setup} <--> C[Gantry Assembly<br>LabVIEW code]
     B <--> C
