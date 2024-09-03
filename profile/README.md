@@ -13,6 +13,7 @@ graph TD
     E <--> A
     click A href "https://github.com/cmu-hgc-mac/HGC_DB_postgres/"
     click B href "https://github.com/cmu-hgc-mac/HGC_OGP_DB"
+    click C href "https://github.com/jparshook/UCSB-Gantry-master-main"
     click D href "https://github.com/nkalliney1/wirebonder_gui"
     click E href "https://gitlab.cern.ch/acrobert/hgcal-module-testing-gui/"
 
