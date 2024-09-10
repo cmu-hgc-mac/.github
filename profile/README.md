@@ -5,7 +5,7 @@ This flowchart outlines the vaious steps of HGCal Silicon Module Assembly at a M
 ```mermaid
 graph TD
     K[CERN INT2R DB] <--> A
-    A{<br>Local<br>MAC Database<br>Setup} <--> B[In Progress - OGP Inspection GUI]
+    A{<br>Local<br>MAC Database<br>Setup} <--> B[In Progress<br>OGP Inspection GUI]
     A{<br>Local<br>MAC Database<br>Setup} <--> C[Gantry Assembly<br>LabVIEW code]
     B <--> C
     A <--> D[Wirebonding<br>and Encapsulation<br>GUI]
