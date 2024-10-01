@@ -19,3 +19,6 @@ graph TD
 
 ```
 <!-- https://github.com/jparshook/UCSB-Gantry-master-main -->
+
+## Other projects
+- [Encapsulation procedure and programs for LD Full](https://github.com/cmu-hgc-mac/encapsulation)
