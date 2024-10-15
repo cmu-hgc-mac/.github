@@ -2,6 +2,9 @@
 
 This flowchart outlines the vaious steps of HGCal Silicon Module Assembly at a Module Assembly Center (MAC). The code associated with the various steps are linked below.
 
+## Related projects
+- [Encapsulation procedure and programs for LD Full](https://github.com/cmu-hgc-mac/encapsulation)
+
 ```mermaid
 graph TD
     K[CERN INT2R DB] <--> A
@@ -20,5 +23,4 @@ graph TD
 ```
 <!-- https://github.com/jparshook/UCSB-Gantry-master-main -->
 
-## Other projects
-- [Encapsulation procedure and programs for LD Full](https://github.com/cmu-hgc-mac/encapsulation)
+
