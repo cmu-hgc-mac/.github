@@ -5,6 +5,8 @@ This flowchart outlines the various steps of HGCal Silicon Module Assembly at a 
 ## Related projects
 - [Encapsulation procedure and programs for LD Full](https://github.com/cmu-hgc-mac/encapsulation)
 - [Grafana Visualization Dashboard](https://github.com/cmu-hgc-mac/grafana_hgcdb_dashboard)
+- [Ambient Temperature & Humidity DB Logging](https://github.com/cmu-hgc-mac/ambient-temp-humidity)
+- [Ambient Particulate Counts DB Logging](https://github.com/cmu-hgc-mac/ambient-particulate-counts)
 
 ```mermaid
 graph TD
