@@ -7,7 +7,7 @@ graph TD
     
     subgraph AI [Assembly & Inspection]
         direction TB
-        I[OGP Inspection GUI<br>WORK IN PROGRESS] <--> L[Gantry Assembly<br>LabVIEW code]
+        L[Gantry Assembly<br>LabVIEW code] <--> I[OGP Inspection GUI<br>WORK IN PROGRESS] 
     end
 
     subgraph WET [Wirebonding & Electrical Testing]
