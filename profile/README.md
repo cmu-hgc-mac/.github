@@ -7,7 +7,10 @@ graph TD
     
     subgraph AI [Assembly & Inspection]
         direction TB
-        L[Gantry Assembly<br>LabVIEW code] <--> I[OGP Inspection GUI<br>WORK IN PROGRESS] 
+        L[Gantry Assembly<br>LabVIEW code] <--> I[OGP-DB Python Helper<br>WORK IN PROGRESS]
+        IS@{ shape: docs, label: "OGP Inspection Surveys" }
+        I --- IS
+
     end
 
     subgraph WET [Wirebonding & Electrical Testing]
@@ -39,6 +42,7 @@ graph TD
     click P href "https://github.com/cmu-hgc-mac/ambient-particulate-counts"
     click H href "https://github.com/cmu-hgc-mac/ambient-temp-humidity"
     click EP href "https://github.com/cmu-hgc-mac/encapsulation"
+    click IS href "https://github.com/cmu-hgc-mac/OGP-inspection-surveys"
     e1@{ animate: true }
     e2@{ animate: true }
     
