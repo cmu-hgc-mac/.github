@@ -13,14 +13,14 @@ graph TD
 
     end
 
-    subgraph WET [Wirebonding and Encapsulation]
+    subgraph WEN [Wirebonding and Encapsulation]
         direction TB
         W[Wirebonding and<br> Encapsulation GUI]
         EP@{ shape: docs, label: "Encapsulation procedure and programs for LD Full" }
         W --- EP
     end
 
-    subgraph WET [Electrical Testing]
+    subgraph ET [Electrical Testing]
         direction TB
         SMT[Single Module<br> Testing GUI]
         MMT[MultiModule<br> Testing GUI]
