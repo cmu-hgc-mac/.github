@@ -21,7 +21,7 @@ graph TD
     end
 
     subgraph ET [Electrical Testing]
-        direction TB
+        direction LR
         SMT[Single Module<br> Testing GUI]
         MMT[MultiModule<br> Testing GUI]
         PLC[PLC Toolkit]
