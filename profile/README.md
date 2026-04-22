@@ -37,7 +37,8 @@ graph TD
     G>Grafana-Postgres Visualization Dashboard] e1@ === A
     A e2@--- EM
     A <--> AI
-    A <--> WET
+    A <--> WEN
+    A <--> ET
     
     click A href "https://github.com/cmu-hgc-mac/HGC_DB_postgres/"
     click I href "https://github.com/cmu-hgc-mac/HGC_OGP_DB"
