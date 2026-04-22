@@ -13,11 +13,18 @@ graph TD
 
     end
 
-    subgraph WET [Wirebonding & Electrical Testing]
+    subgraph WET [Wirebonding and Encapsulation]
         direction TB
-        T[Electrical Testing GUI] <--> W[Wirebonding and<br> Encapsulation GUI]
+        W[Wirebonding and<br> Encapsulation GUI]
         EP@{ shape: docs, label: "Encapsulation procedure and programs for LD Full" }
         W --- EP
+    end
+
+    subgraph WET [Electrical Testing]
+        direction TB
+        SMT[Single Module<br> Testing GUI]
+        MMT[MultiModule<br> Testing GUI]
+        PLC[PLC Toolkit]
     end
 
     subgraph EM [Environment monitoring]
@@ -36,7 +43,9 @@ graph TD
     click I href "https://github.com/cmu-hgc-mac/HGC_OGP_DB"
     click L href "https://github.com/cmu-hgc-mac/Gantry"
     click W href "https://github.com/cmu-hgc-mac/wirebonder_gui"
-    click T href "https://gitlab.cern.ch/acrobert/hgcal-module-testing-gui/"
+    click SMT href "https://gitlab.cern.ch/acrobert/hgcal-module-testing-gui/"
+    click MMT href "https://github.com/ltsai323/MultiModuleTeststandUI/tree/main"
+    click PLC href "https://github.com/Xingfu23/PLC_toolkits_mqtt_NTU/tree/master"
     click K href "https://gitlab.cern.ch/groups/hgcal-database/-/issues"
     click G href "https://github.com/cmu-hgc-mac/grafana_hgcdb_dashboard"
     click P href "https://github.com/cmu-hgc-mac/ambient-particulate-counts"
